@@ -24,7 +24,3 @@ def int_to_roman(num):
             num -= val[i]
         i += 1
     return roman_numeral
-
-# Example usage
-number = int(input("Enter an integer: "))
-print(f"The Roman numeral is: {int_to_roman(number)}")
